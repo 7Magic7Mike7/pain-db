@@ -24,19 +24,19 @@ the following is in a subset of columns in all Data Layer Tables:
 
 ### Environmental Layer Table
 - lat: `float`
-    - represents the datapoint's latitude
-    - in [0, 180[
+  - represents the datapoint's latitude
+  - in [-90, 90[
 - lng: `number`
   - represents the datapoint's longitude
-  - in [0, 360[
+  - in [-180, 180[
 
 ### Physical Layer Table
 - lat: `float`
-    - represents the datapoint's latitude
-    - in [0, 180[
+  - represents the datapoint's latitude
+  - in [-90, 90[
 - lng: `number`
   - represents the datapoint's longitude
-  - in [0, 360[
+  - in [-180, 180[
 
 ### Socioeconomical Layer Table
 - country: `string`
@@ -45,11 +45,11 @@ the following is in a subset of columns in all Data Layer Tables:
 ### Experimental Data Table
 - category: here it is used to distinguish between different experiments
 - lat: `float`
-    - represents the datapoint's latitude
-    - in [0, 180[
+  - represents the datapoint's latitude
+  - in [-90, 90[
 - lng: `number`
   - represents the datapoint's longitude
-  - in [0, 360[
+  - in [-180, 180[
 
 ## Log Tables?
 TODO
